@@ -1,0 +1,4 @@
+from almalinux:9
+env name="pavan" \
+    course="devops" \
+    time="2 hours"
