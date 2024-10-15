@@ -1,0 +1,4 @@
+from almalinux:9
+run dnf install nginx -y
+expose 80
+cmd ["nginx", "-g", "daemon;"]
