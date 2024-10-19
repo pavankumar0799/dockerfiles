@@ -1,0 +1,5 @@
+from almalinux:9
+arg course="devops with aws" \
+    duration="120hrs"
+run echo "course:$course, duration:$duration"
+cmd ["sleep", "100"]
