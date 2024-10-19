@@ -1,4 +1,4 @@
-from almelinux:9
+from almalinux:9
 run useradd expense
 user expense
 cmd ["sleep", "100"]
